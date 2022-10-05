@@ -1,10 +1,13 @@
+import Theme from '../../components/Theme';
 import * as C from './styles'
 
 function FormStep1() {
     return ( 
-        <C.Container>
-            Passo 1
-        </C.Container>
+        <Theme>
+            <C.Container>
+                Passo 1
+            </C.Container>
+        </Theme>
      );
 }
 
